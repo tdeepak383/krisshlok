@@ -3,12 +3,12 @@ import { Link, NavLink } from 'react-router-dom'
 
 export default function Header() {
     return (
-        <header className="shadow sticky z-50 top-0">
-            <div className="bg-lime-400 border-gray-200 px-4 lg:px-6 py-2.5">
+        <header className="shadow z-50 top-0">
+            <div className="bg-[#EEEDEB] border-gray-200 px-4 lg:px-6 py-2.5">
                 <div className='flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
                     <div className='flex items-center lg:order-2'>
                         <Link to="#"
-                            className="text-white hover:text-slate-50 mr-5 inline-flex items-center hover:opacity-75"
+                            className="text-black hover:text-gray-500 mr-5 inline-flex items-center hover:opacity-75"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export default function Header() {
 
                         </Link>
                         <Link to="#"
-                            className="text-white hover:text-slate-50 mr-5 inline-flex items-center hover:opacity-75"
+                            className="text-black hover:text-gray-500 mr-5 inline-flex items-center hover:opacity-75"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ export default function Header() {
 
                         </Link>
                         <Link to="#"
-                            className="text-white hover:text-slate-50 mr-5 inline-flex items-center hover:opacity-75"
+                            className="text-black hover:text-gray-500 mr-5 inline-flex items-center hover:opacity-75"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,6 @@ export default function Header() {
                                 <path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
                             </svg>&nbsp; &nbsp;
 
-
                         </div>
                     </div>
                     <div className='hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1'>
@@ -84,15 +83,15 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
                         <img
-                            src="https://krisshlok.shop/wp-content/uploads/2022/06/desktop-logo.png"
-                            className="mr-3 h-16"
+                            src="https://dunker.qodeinteractive.com/wp-content/uploads/2023/02/Dunker-logo-dark.png"
+                            className="mr-3 h-8"
                             alt="Logo"
                         />
                     </Link>
                     <div className="flex items-center lg:order-2">
                         <Link
                             to="#"
-                            className="text-black text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
+                            className="text-black text-sm px-2 lg:px-5 py-2 lg:py-2.5 mr-2"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
@@ -101,24 +100,28 @@ export default function Header() {
                         </Link>
                         <Link
                             to="#"
-                            className="text-black text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                            className="text-black text-sm px-2 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                             </svg>
+                            
 
+                        </Link>
+                        <Link to="#" className="text-black text-sm px-2 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4"> <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
                         </Link>
                     </div>
                     <div
                         className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
                         id="mobile-menu-2"
                     >
-                        <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <ul className="flex flex-col mt-2 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             <li>
                                 <NavLink
                                     to="/"
                                     className={({ isActive }) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-lime-400" : "text-gray-700"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:bg-lime-400 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-black" : "text-gray-700"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:bg-gray-500 lg:p-0`
                                     }
                                 >
                                     Home
@@ -128,30 +131,17 @@ export default function Header() {
                                 <NavLink
                                     to="/about"
                                     className={({ isActive }) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-lime-400" : "text-gray-700"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:bg-lime-400 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-black" : "text-gray-700"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:bg-gray-500 lg:p-0`
                                     }
                                 >
-                                    Category
+                                    Shop
                                 </NavLink>
-                                <ul>
-                                <li>
-                                <NavLink
-                                    to="/about"
-                                    className={({ isActive }) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-lime-400" : "text-gray-700"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:bg-lime-400 lg:p-0`
-                                    }
-                                >
-                                    Mukut Pagdi
-                                
-                                </NavLink>
-                            </li>
-                                </ul>
                             </li>
                             <li>
                                 <NavLink
                                     to="/contact"
                                     className={({ isActive }) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-lime-400" : "text-gray-700"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:bg-lime-400 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-black" : "text-gray-700"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:bg-gray-500 lg:p-0`
                                     }
                                 >
                                     Contact
@@ -161,7 +151,7 @@ export default function Header() {
                                 <NavLink
                                     to="/github"
                                     className={({ isActive }) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-lime-400" : "text-gray-700"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:bg-lime-400 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-black" : "text-gray-700"} border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:bg-gray-400 lg:p-0`
                                     }
                                 >
                                     Github
